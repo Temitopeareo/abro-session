@@ -54,22 +54,22 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id, { text: 'GHOST-MD=>;;;' + b64data });
+               let session = await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id, { text: '' + b64data });
 
                let GHOST_MD_TEXT = `
 ____________________________
-*✅sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ✅*
+        ABRO MD 
 ____________________________
 ╔════◇
-║『 *YOU'VE CHOSEN GHOST-MD* 』
+║『 *YOU'VE CHOSEN ABRO-BOT* 』
 ║ You've Completed the First Step
 ║ to Deploy a Whatsapp Bot.
 ╚════════════════╝
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐎𝐰𝐧𝐞𝐫: https://wa.me/254758682666
-║❒ 𝐑𝐞𝐩𝐨: https://github.com/Blvckcastro/Ghost-Md
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029VaYVQPxE50UYrUaToj1V
+║❒ 𝐎𝐰𝐧𝐞𝐫: https://wa.me/2348100151048
+║❒ 𝐑𝐞𝐩𝐨: https://github.com/Temitopeareo/FUGU1
+║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞 : coming soon!!
 ║ 💜💜💜
 ╚════════════════╝
 Don't Forget To Give Star⭐ To My Repo`
