@@ -17,7 +17,7 @@
 ## Deployment Methods
 ---
 1.  ***Click [`FORK`](https://github.com/Blvckcastro/ghost-md-session/fork) and `Star ⭐ Repository` if you get help from repo.***
-2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Blvckcastro/ghost-md-session).***
+2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Temitopeareo/abro-session).***
 3. ***Deploy on [`RENDER`](https://dashboard.render.com/login).***
 ```
 RENDER PROCESS:
